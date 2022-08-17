@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style:none;
+}
+
+.nav-menu li {
+    padding-right: 48px;
+}
+
+
+.login-but{
+    background: #12100C;
+    border-radius: 12px;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;    
+    padding: 6px 22px;
+}
+
+.main-image{
+    background-color: #000;
+}
+
+/* Main */
+
+.main-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(18, 16, 12, 0.7);
+}
+.row{
+    max-width: 1350px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.promo-title{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    color: #12100C;
+}
+.promo-button{
+    background: #FFAE33;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 11px 46px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.row-button-container{
+    max-width: 360px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: start;
+    font-size: 16px;
+    gap: 22px;
+}
+
+.promo-logos{
+    display: flex;
+    gap: 28px;
+}
+
+.but-promo-text{
+    padding-top: 4px;
+}
